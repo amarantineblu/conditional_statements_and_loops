@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conditional statements and loops </title>
+</head>
+<body>
+    
+    <script>
+        //a js program that accepts two integers and check the bigger one
+        let int_1 = prompt('Integer One Value');
+        let int_2 = prompt('Integer two value');
+        if (int_1 > int_2) {
+            alert( `${int_1} is the bigger value`);
+        } else if (int_1 == int_2) {
+            alert('They are equal');
+        }else {
+            alert(`${int_2} is the bigger value`);
+        }
+
+        //another js program to check whether an integer is even or odd
+        let int = prompt('please insert a number here');
+				if (int/2 == true) {
+					alert('This is an even number');
+				}else {
+					alert('this number is an odd one');
+				}
+    </script>
+</body>
+</html>
